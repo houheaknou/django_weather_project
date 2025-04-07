@@ -26,7 +26,9 @@ SECRET_KEY = 'django-insecure-gf-++mt4yno9o5shm&1s_jfaf&ki0ut4@8a53w@!f^h7&#q=ha
 DEBUG = False
 
 # ALLOWED_HOSTS = ['djangoweatherapp.up.railway.app', 'localhost', '127.0.0.1']
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'djangoweatherapp.up.railway.app']
+# ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'djangoweatherapp.up.railway.app']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.up.railway.app']
+
 
 CSRF_TRUSTED_ORIGINS = ['https://djangoweatherapp.up.railway.app']
 
